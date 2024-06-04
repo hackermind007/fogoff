@@ -8,18 +8,23 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid flex flex-col justify-between">
             <header class="flex justify-between">
                 <div class="p-2"><img src="logo.svg" alt="" width="170px"></div>
                 <div class="w-75">
                     <ul class="m-0 p-0 flex py-2 px-4 bg-[#FFFFFFB3] rounded-3xl">
-                        <li class="px-9"><a href="#">SKI</a></li>
-                        <li class="px-9"><a href="#">SNOWBOARD</a></li>
-                        <li class="px-9"><a href="#">LIMITED EDITION</a></li>
-                        <li class="px-9"><a href="#">ABOUT</a></li>
+                        <li class="px-7"><a href="#">SKI</a></li>
+                        <li class="px-7"><a href="#">SNOWBOARD</a></li>
+                        <li class="px-7"><a href="#">LIMITED EDITION</a></li>
+                        <li class="px-7"><a href="#">ABOUT</a></li>
                     </ul>
                 </div>
             </header>
+            <div class="hero max-w-[400px] custom:max-w-[400px] md:max-w-[500px] lg:max-w-[600px] flex flex-col gap-5">
+                <h1 class="text-main font-bold">SPEED ON.<br>FOG OFF.</h1>
+                <p>Best in class ski goggles will help you stay focus on your skills and pace instead of worrying about snow in your face.</p>
+                <a class="px-8 py-3 w-fit bg-pink-500 rounded-md transition-colors ease duration-300 hover:bg-pink-600 text-white uppercase" href="#">shop now</a>
+            </div>
     </div>
 </body>
-</html>
+</html> 

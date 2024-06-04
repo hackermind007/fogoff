@@ -1,6 +1,7 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 0;    
+    font-family: Montserrat, sans-serif;
 }
 .container-fluid{
     width: 100%;
@@ -23,4 +24,12 @@
 header ul li a {
     color: #0c4d6f;
     font-weight: 500;
+}
+.hero h1 {
+    font-size: clamp(1.875rem,.7813rem + 6.25vw,6.25rem);
+    line-height: .9;
+}
+.text-main {
+    --tw-text-opacity: 1;
+    color: rgb(12 77 111 / var(--tw-text-opacity));
 }
